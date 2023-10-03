@@ -14,7 +14,7 @@ Additionally, it utilizes Spring Cloud Stream Functions
     - [Start zookeeper](#start-zookeeper)
     - [Start KAFKA server](#start-kafka-server)
  
-- [Communication Types](#communication-types)
+- [Services Types](#services-types)
     - [KAFKA Console](#kafka-console)
     - [Rest Controller with Stream Bridge](#rest-controller-with-stream-bridge)
     - [Cunsomer](#cunsomer)
@@ -76,7 +76,7 @@ D:.
 
 ![5](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/ebef2645-7a5c-44b9-96b7-db65b3c6f701)
 
-## Communication Types
+## Services Types
 
 ### Kafka Console
 
@@ -152,6 +152,8 @@ D:.
 
 ### KAFKA Stream
 
+*  Data Analytics Real Time Stream Processing with Kaflka Streams
+
 ```java
     @Bean
     public Function<KStream<String, PageEvent>, KStream<String, Long>> kStreamFunction(){
@@ -167,3 +169,13 @@ D:.
         };
     }
 ```
+
+![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/74eb541e-39a4-4a36-8af8-ff7592a88563)
+
+
+* Web application that displays the results of Stream Data Analytics in real time
+
+![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/304184b8-398e-4a99-9a45-a83545eede36)
+![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/b4843ace-293b-4724-acc2-f581d80da3fb)
+
+
