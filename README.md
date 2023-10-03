@@ -171,6 +171,8 @@ D:.
 ```
 
 ![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/74eb541e-39a4-4a36-8af8-ff7592a88563)
+![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/c7fe942e-3533-4fe4-870b-40a3a7783ee8)
+
 
 
 * Web application that displays the results of Stream Data Analytics in real time
