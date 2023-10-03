@@ -16,13 +16,14 @@ Additionally, it utilizes Spring Cloud Stream Functions
  
 - [Services Types](#services-types)
     - [KAFKA Console](#kafka-console)
+    - [Docker-compose](#docker-compose)
     - [Rest Controller with Stream Bridge](#rest-controller-with-stream-bridge)
     - [Cunsomer](#cunsomer)
     - [Supplier](#supplier)
     - [Function](#function)
     - [KAFKA Stream](#kafka-stream)
   
-- [Docker-compose](#docker-compose)
+
 
 ## Prerequisites
 Before running this application, you need to have the following software installed on your system :
@@ -90,6 +91,14 @@ D:.
 
 ![7](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/9689f156-8e81-4a31-af93-00d5eaad6f1e)
 
+### Docker compose
+`docker-compose up -d`
+
+`docker exec --interactive --tty broker kafka-console-consumer --bootstrap-server broker:9092 --topic T2`
+
+`docker exec --interactive --tty broker kafka-console-producer --bootstrap-server broker:9092 --topic T2`
+
+![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/0a297665-af60-4a56-9065-daa963f57aed)
 
 ### Rest Controller with Stream Bridge
 
@@ -171,13 +180,18 @@ D:.
 ```
 
 ![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/74eb541e-39a4-4a36-8af8-ff7592a88563)
-![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/c7fe942e-3533-4fe4-870b-40a3a7783ee8)
 
 
 
 * Web application that displays the results of Stream Data Analytics in real time
 
 ![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/304184b8-398e-4a99-9a45-a83545eede36)
-![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/b4843ace-293b-4724-acc2-f581d80da3fb)
+
+![image](https://github.com/el-moudni-hicham/springcloud-kafka/assets/85403056/c7fe942e-3533-4fe4-870b-40a3a7783ee8)
+
+
+
+
+
 
 
