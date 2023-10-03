@@ -16,7 +16,7 @@ Additionally, it utilizes Spring Cloud Stream Functions
  
 - [Services Types](#services-types)
     - [KAFKA Console](#kafka-console)
-    - [Docker-compose](#docker-compose)
+    - [Docker Compose](#docker-compose)
     - [Rest Controller with Stream Bridge](#rest-controller-with-stream-bridge)
     - [Cunsomer](#cunsomer)
     - [Supplier](#supplier)
